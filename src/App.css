@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Lato:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+}
+
+/* Logo sizing classes */
+.logo-large {
+  width: 200px;
+  height: auto;
+}
+
+.logo-medium {
+  width: 150px;
+  height: auto;
+}
+
+.logo-small {
+  width: 100px;
+  height: auto;
+}
+
+.logo-icon {
+  width: 32px;
+  height: 32px;
+}
